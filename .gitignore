@@ -1,0 +1,33 @@
+# Ignore everything by default
+*
+
+# Always track this file
+!.gitignore
+!CLAUDE.md
+!VISION-001.md
+
+# ------------------------------------------------------------
+# SDD Documentation
+# ------------------------------------------------------------
+
+!docs/
+!docs/**
+
+# ------------------------------------------------------------
+# Custom WordPress Theme
+# ------------------------------------------------------------
+
+!app/
+!app/public/
+!app/public/wp-content/
+!app/public/wp-content/themes/
+!app/public/wp-content/themes/portfolio-theme/
+!app/public/wp-content/themes/portfolio-theme/**
+
+# ------------------------------------------------------------
+# Explicitly ignored LocalWP/runtime directories
+# ------------------------------------------------------------
+
+conf/
+logs/
+app/public/wp-content/uploads/
